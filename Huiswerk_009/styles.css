@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(247, 255, 250);
+    color: rgb(109, 108, 108);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16 
+  px;
+
+}
+p { color: rgb(166, 253, 178);
+}
+
+li {
+    display: inline;
+  }
+  
+li a {
+    display: block;
+    margin: 3px;
+    padding: 4px;
+    border: 2px red solid;
+    background-color: #dddddd;
+  }
+
+.container {
+    width: 100%;
+ }
+
+ .blogpost {
+  display: flex;
+  background-color: DodgerBlue;
+  display: flex;
+  justify-content: center;
+  style="flex-grow: 5"
+  style="flex-grow: 1";
+  }
+
+.blogpost > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+ 
+
+
+
+
+.algemeen0{
+   
+
+  background-color: black;
+    color: blanchedalmond;
+
+    border-top: 35px rgb(200, 255, 0) solid;
+    border-right: 5px rgb(200, 255, 0) solid;
+    border-bottom: 5px rgb(200, 255, 0) solid;
+    border-left: 5px rgb(200, 255, 0) solid;
+
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+
+padding-top: 15px;
+padding-right: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+}
+
+.algemeen{
+    background-color: black;
+    color: blanchedalmond;
+
+    border-top: 5px rgb(200, 255, 0) solid;
+    border-right: 5px rgb(200, 255, 0) solid;
+    border-bottom: 5px rgb(200, 255, 0) solid;
+    border-left: 5px rgb(200, 255, 0) solid;
+
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+
+padding-top: 15px;
+padding-right: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+}
+
+.navigation-links li {
+  display: inline;
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    background-color: #01d9ff;}
+    p {font-size: x-large;
+      color: #fdfbff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+}
